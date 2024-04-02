@@ -1,0 +1,16 @@
+**Package
+github.com/go-chi/chi
+github.com/go-chi/chi/middleware
+github.com/thedevsaddam/renderer --> api testing / render page
+gopkg.in/mgo.v2 --> mongodb golang
+gopkg.in/mgo.v2/bson
+
+
+
+"encoding/json" --> bson data to json for frontend
+"log" --> log err/data
+"net/http" --> create server in golang
+"string" --> 
+"time" --> timestamp
+"context" --> 
+"os" -->
