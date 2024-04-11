@@ -24,7 +24,7 @@ const (
 	hostName					string = "localhost:27017"
 	dbName						string = "demo_todo"
 	collectionName		string = "todo"
-	port 							string = ":9000"
+	port 							string = ":9999"
 )
 
 type(
@@ -42,7 +42,7 @@ type(
 	}
 )
 
-func inti(){
+func init(){
 	rnd = renderer.New()
 	sess, err := mgo.Dial(hostName)
 	checkErr(err)
